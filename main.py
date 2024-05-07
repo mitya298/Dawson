@@ -8,3 +8,4 @@ from chapters import chapter_2
 if __name__ == '__main__':
     chapter_1.game_over()
     chapter_2.game_over_2_0()
+    chapter_2.fancy_credits()
