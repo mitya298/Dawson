@@ -1,14 +1,12 @@
 # This is a sample Python script.
+from chapter_1 import game_over
+
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-# Chapter 1
-def game_over():
-    print('Game_over')
-    input("\n\n Нажмите ENTER, чтобы выйти...")
-    print("\nпломбир")
-    print("Доусон М\nПрограммирование на Python")
+
+
 
 # Chapter 2
 
@@ -35,5 +33,5 @@ def game_over_2_0():
     input("\n\n Нажмите Enter, чтобы выйти...")
 
 if __name__ == '__main__':
-    #game_over()
+    game_over()
     game_over_2_0()
