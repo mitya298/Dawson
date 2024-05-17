@@ -11,4 +11,5 @@ if __name__ == '__main__':
     #chapter_2.fancy_credits()
     #chapter_2.silly_strings()
     #chapter_2.word_problems()
-    chapter_2.greeter()
+    #chapter_2.greeter()
+
