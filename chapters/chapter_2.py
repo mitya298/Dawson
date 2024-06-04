@@ -49,3 +49,12 @@ def greeter():
     name = "Вася"
     print("Привет, ", name)
     input("Нажмите ENTER, чтобы выйти...\n")
+
+# программа персональный привет
+def personal_greeter():
+    name = input('\nВведите своё имя:')
+    print('Вы ввели - ', name)
+    print ('Привет, ', name)
+    input('\n\nНажмите Enter для завершения...')
+
+# list 61
