@@ -58,16 +58,31 @@ def personal_greeter():
     input('\n\nНажмите Enter для завершения...')
 
 # программа манипуляции с цитатой
-# пример строковых методов upper, lower, title, replace
+# пример строковых методов upper, lower, title, replace, swapcase, capitalize, strip,
 
 def quotation_manipulation():
-    quote = "Думаю, на мировом рынке будет продано штук 5 компьютеров"
+    quote = "\tДумаю, на мировом рынке будет продано штук 5 компьютеров"
     print("\nИсходная цитата")
     print(quote)
     print("\nОна же в верхнем регистре: ")
     print(quote.upper())
     print("\nОна же в нижнем регистре: ")
     print(quote.lower())
+    print("\nОна же как заголовок: ")
+    print(quote.title())
+    quote_2 = quote.title()
+    print("\nА теперь возврат строки, в которой регистр обращён: ")
+    print(quote_2.swapcase())
+    print("\nА теперь вернём к первоначальному виду: ")
+    print(quote_2.capitalize())
+    print("\nА теперь уберём табуляцию: ")
+    print(quote.strip())
+    print("\nC заменой: ")
+    print(quote.replace("штук 5", "несколько миллионов"))
+    print("\nИ исходная: ")
+    print(quote)
+    print("\nИ в конце заменим пробелы на '*' 3 раза:")
+    print(quote.replace(" ", '*',3))
 
 
 
