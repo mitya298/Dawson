@@ -1,5 +1,5 @@
 # This is a sample Python script.
-from chapters import chapter_1
+#from chapters import chapter_1
 from chapters import chapter_2
 
 # Press Shift+F10 to execute it or replace it with your code.
@@ -12,5 +12,5 @@ if __name__ == '__main__':
     #chapter_2.silly_strings()
     #chapter_2.word_problems()
     #chapter_2.greeter()
-    chapter_2.personal_greeter()
-
+    #chapter_2.personal_greeter()
+    chapter_2.quotation_manipulation()

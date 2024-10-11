@@ -57,4 +57,18 @@ def personal_greeter():
     print ('Привет, ', name)
     input('\n\nНажмите Enter для завершения...')
 
+# программа манипуляции с цитатой
+# пример строковых методов upper, lower, title, replace
+
+def quotation_manipulation():
+    quote = "Думаю, на мировом рынке будет продано штук 5 компьютеров"
+    print("\nИсходная цитата")
+    print(quote)
+    print("\nОна же в верхнем регистре: ")
+    print(quote.upper())
+    print("\nОна же в нижнем регистре: ")
+    print(quote.lower())
+
+
+
 # list 61
